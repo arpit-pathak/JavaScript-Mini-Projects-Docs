@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #99f8ff;
+  background-image:
+    radial-gradient(at 66% 51%, hsla(318, 65%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 18% 22%, hsla(319, 96%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 74% 38%, hsla(134, 87%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 29% 65%, hsla(252, 77%, 69%, 1) 0px, transparent 50%),
+    radial-gradient(at 7% 3%, hsla(36, 94%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 1% 28%, hsla(258, 83%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 6% 93%, hsla(284, 64%, 64%, 1) 0px, transparent 50%);
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 350px;
+  height: 530px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background: #f7f7f7;
+  border: 4px solid white;
+  border-radius: 11px;
+  box-shadow: inset 2px 2px 4px #a6a6a6,
+    inset -2px -2px 4px #ffffff;
+  box-shadow: inset 2px 2px 4px #a6a6a6,
+    inset -2px -2px 4px #e2e2e2;
+}
+
+.container .input {
+  width: 100%;
+  height: 100px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  overflow-y: auto;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  color: rgb(100, 100, 100);
+  background: #f7f7f7;
+  box-shadow: inset 3px 3px 2px #d2d2d2,
+    inset -3px -3px 0px #ffffff;
+}
+
+.btn {
+  cursor: grab;
+  text-align: center;
+  width: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #dedede, #ffffff);
+  box-shadow: 5px 5px 10px #dcdcdc,
+    -5px -5px 10px #ffffff;
+  margin: 5px;
+  border: none;
+  color: #54068c;
+}
+
+.sign {
+  color: rgb(5, 174, 47);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.equal {
+  width: 135px;
+  border-radius: 40px;
+  color: white;
+  background: linear-gradient(145deg, #7e08d1, #150032);
+
+}
+
+.ac {
+  background: #ffcc02;
+}

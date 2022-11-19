@@ -44,3 +44,22 @@ button:hover {
     color:#01ffaf;
     background-color: rgb(50, 50, 50);
 }
+
+@media only screen and (max-width: 600px) {  
+    .clock-body button{
+        display: block;
+        padding: 12px;
+        width: 20rem;
+    }   
+}
+@media only screen and (max-width: 400px) {
+
+  
+    .clock-body button{
+        width: 15rem;
+    }
+    .clock {
+        font-size: 3rem;
+    }
+    
+}

@@ -1,0 +1,109 @@
+/* Import Google Font - Poppins */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #161616;
+}
+::selection{
+  color: #fff;
+  background-color:#EB6440;
+}
+.wrapper{
+  max-width: 500px;
+  background: #edededf9;
+  border-radius: 10px;
+  padding: 20px 25px 15px;
+  box-shadow: 0 15px 40px rgba(123, 123, 123, 0.332);
+}
+header h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+header p{
+  margin-top: 5px;
+  font-size: 18px;
+  color: #171717;
+}
+.inputs{
+  margin: 20px 0 27px;
+}
+.inputs input{
+  width: 100%;
+  height: 60px;
+  outline: none;
+  padding: 0 17px;
+  font-size: 19px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  transition: 0.1s ease;
+}
+.inputs input::placeholder{
+  color: rgb(96, 96, 96);
+}
+.inputs input:focus{
+  box-shadow: 0 3px 6px #D6E4E5;
+}
+.inputs input:focus::placeholder{
+  color: #767676;
+}
+.inputs button{
+  width: 100%;
+  height: 56px;
+  border: none;
+  opacity: 0.7;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 20px;
+  border-radius: 5px;
+  pointer-events: none;
+  background: #EB6440;
+  transition: opacity 0.15s ease;
+}
+.inputs button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+.output{
+  display: none;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.output span{
+  color: #EB6440;
+}
+
+@media (max-width: 520px) {
+  .wrapper{
+    padding: 17px 20px 10px;
+  }
+  header h1{
+    font-size: 1.7rem;
+  }
+  header p{
+    font-size: 16px;
+  }
+  .inputs input{
+    height: 54px;
+    font-size: 17px;
+  }
+  .inputs button{
+    height: 50px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+  .output{
+    font-size: 18px;
+  }
+}

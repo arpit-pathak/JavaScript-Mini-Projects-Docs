@@ -37,6 +37,12 @@
 
 ![stopwatch screenshot](./stopwatch/images/Stopwatch-by%20arpit-pathak.png)
 
+# ⭐WordCounter App
+
+### 📌 **Project's Live Link 🚀 [Click here](https://arpit-wordcounter.netlify.app/)🔗**
+
+![wordcounter app screenshot](./Wordcounter%20App/screenshots/Word%20Counter%20-%20%40arpit-pathak.png)
+
 ## 📌 Contact me 📬
 
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpit-webdev/)

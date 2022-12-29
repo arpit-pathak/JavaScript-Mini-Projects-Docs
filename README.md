@@ -43,6 +43,12 @@
 
 ![wordcounter app screenshot](./Wordcounter%20App/screenshots/Word%20Counter%20-%20%40arpit-pathak.png)
 
+# ⭐Todo App
+
+### 📌 **Project's Live Link 🚀 [Click here](https://todoooo-app.netlify.app/)🔗**
+
+![Todo app screenshot](./Todo/images/Todo%20by%20arpit.png)
+
 ## 📌 Contact me 📬
 
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpit-webdev/)
